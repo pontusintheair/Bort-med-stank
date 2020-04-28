@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 50px auto 50px auto;
+}
+
+header{
+  grid-column: 2/4;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self:center;
+  text-align: center;
+}
+
+#a {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  align-self: center;
+  justify-self:center;
+  text-align: center;
+}
+
+#b {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  align-self: center;
+  justify-self:center;
+  text-align: center;
+}
+
+#c{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+section{
+ grid-column: 2/4;
+ grid-row: 3/4;
+ align-self: center;
+ justify-self:center;
+ text-align: center;
+}
+
+footer{
+  grid-column: 2/4;
+  grid-row: 5/6;
+  align-self: center;
+  justify-self:center;
+  text-align: center;
+
+
+}

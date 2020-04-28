@@ -1,0 +1,23 @@
+.container{
+  background-color: rgb(154, 231, 238)
+}
+
+*{box-sizing: border-box;}
+
+body{margin: 0;}
+
+header{
+ background-color:rgb(150, 147, 204)
+}
+
+#a{
+  background-color: rgb(27, 39, 148)
+}
+
+#b{
+  background-color: rgb(27, 39, 148)
+}
+
+#c{
+  background-color: rgb(27, 39, 148)
+}
